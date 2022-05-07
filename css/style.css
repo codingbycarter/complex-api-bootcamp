@@ -1,0 +1,54 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+body{
+  margin-top: 15%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+   font-family: 'Courier New', Courier, monospace;
+  background-color: black;
+  font-size: large;
+  color: rgb(61, 11, 244);
+}
+.bored {
+  color:  rgb(61, 11, 244);
+  background-color: white;
+  display:flex;
+  margin-left: 35%;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  }
+span{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  color: aliceblue;
+}
+h2 , h3 , p{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
